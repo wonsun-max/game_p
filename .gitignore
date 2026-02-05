@@ -1,0 +1,31 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+
+# Asset meta files must be tracked
+!/[Aa]ssets/**/*.meta
+
+# Uninstallable packages
+/[Pp]ackage[Cc]ache/
+
+# Setup-specific files
+/.vs/
+/.vscode/
+/*.csproj
+/*.sln
+/*.slnx
+/*.user
+/*.userprefs
+/*.unitypackage
+
+# OS generated files
+.DS_Store
+Thumbs.db
